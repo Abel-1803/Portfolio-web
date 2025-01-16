@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Abel David Rajan
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- nav2 -->
+     <nav id="hamburger-nav">
+        <div class="logo">Abel David Rajan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+     </nav>
+<!-- SEC -->
+     <section id="profile">
+        <div class="section__pic-container p1">
+            <img class="pic1" src="./assets/photo_2024-09-29_19-56-48.jpg" alt="abel profile">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Abel David Rajan</h1>
+            <p class="section__text__p2">Front-End  Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/ABEL DAVID RAJAN.pdf')">Download CV</button>
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+           
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="my linkedin" class="icon" onclick="location.href='//www.linkedin.com/in/abel-david-rajan-a75b7b233/'">
+            <img src="./assets/github.png" alt="my linkedin" class="icon" onclick="location.href='//github.com/Abel-1803'">
+        </div>
+     </section>
+<!-- sec2 -->
+     <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/photo-2.jpg" alt="Profile pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="exp icon" class="icon">
+                        <h2>Experience</h2>
+                        <h4>Luminar Technolab</h4>
+                        <p class="section__text__p3">MEARN Stack Developer Intern</p>
+                        <br>
+                        <h4>Torc InfoTech LTD</h4>
+                        <p class="section__text__p3">Participated for an internship of two weeks on Cybersecurity and ethical hacking.</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="exp icon" class="icon">
+                        <h2>Education</h2>
+                        <h4>Mangalam College Of Engineering</h4>
+                        <p class="section__text__p3">BTech Computer Science</p>
+                        <br>
+                        <h4>ST Mary's HSS,Manarcadu</h4>
+                        <p class="section__text__p3">Higher Secondary</p>
+                        <br>
+                        <h4>Marian Senior Secondary School,Kalathilpady</h4>
+                        <p class="section__text__p3">High School</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>As a dedicated MERN Stack Developer, I’m passionate about crafting dynamic and high-performance web applications that deliver seamless user experiences. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building full-stack solutions that are both scalable and efficient. I thrive on turning complex ideas into intuitive, user-friendly applications while ensuring clean, maintainable code. Always driven by a desire to innovate, I stay ahead of the curve with the latest technologies and industry trends, collaborating closely with teams to create impactful solutions that meet business goals and exceed user expectations.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#experience'">
+     </section>
+     <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Front End Development </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Back End Development </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Basic</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Basic</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Basic</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#projects'">
+     </section>
+     <section id="projects">
+        <p class="section__text__p1">Browse My Content</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+            <div class="project-grid">
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.png" alt="project-1" class="project-img">
+                </div>
+                <div class="experience-sub-title project-title">Weather App<br><p>React</p></div>
+                <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='//github.com/Abel-1803/Weather-app'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='//weather-app-2-31.netlify.app/'">Live Demo</button>
+            </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="project-1" class="project-img">
+                </div>
+                <div class="experience-sub-title project-title">Youtube Clone <br><p>HTML CSS</p></div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//github.com/Abel-1803/ytclone'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//abeytclone.netlify.app/'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="project-1" class="project-img">
+                </div>
+                <div class="experience-sub-title project-title">Game<br><p>JavaScript</p></div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//github.com/Abel-1803/rpsgame'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//rpsgameeeee.netlify.app/'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-4.png" alt="project-1" class="project-img">
+                </div>
+                <div class="experience-sub-title project-title">BMI Calculator<br><p>JavaScript</p></div>
+               <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//github.com/Abel-1803/Bmi_calc'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//bmi-calculator342.netlify.app/'">Live Demo</button>
+               </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-5.png" alt="project-1" class="project-img">
+                </div>
+                <div class="experience-sub-title project-title">Registration Form<br><p>React</p></div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//github.com/Abel-1803/register-form'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//reg-for2542356.netlify.app/'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#contact'">
+     </section>
+     <!-- contact -->
+     <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="mail-icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:abeldavidrajan@gmail.com">abeldavidrajan@gmail.com</a></p>
+            </div>
+        
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin-icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/abel-david-rajan-a75b7b233/">LinkedIn</a></p>
+            </div>
+        </div>
+     </section>
+     <!-- footer -->
+      <footer>
+          <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+          </nav>
+          <p>Copyright &#169; 2025 Abel David Rajan,All Rights Reserved.</p>
+      </footer>
+     <script src="script.js">
+
+     </script>
+</body>
+
+</html>
